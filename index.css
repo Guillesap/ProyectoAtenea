@@ -1,0 +1,373 @@
+/*normalizadores*/
+* {
+  margin: 0;
+  padding: 0 auto;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/*globales*/
+body {
+  display: flex;
+  flex-direction: column;
+  }   
+
+
+/*nav bar*/
+#menu {
+  background-color: rgb(250, 136, 125);
+  border:solid;
+}
+
+#menu a {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(17, 3, 3);
+  padding: 0.5cm; 
+}
+
+#menu ul li a {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 17px;
+  font-weight: auto;
+  padding: 1mm;
+  margin: 15mm;
+  text-transform: uppercase;
+  border: solid;
+  background-color: rgb(250, 136, 125);
+  background-color: rgb(250, 136, 125);
+}
+
+#menu ul li a:hover {
+  color: rgb(19, 19, 17);
+}
+
+  
+  .drawer {
+    font-size: 1rem;
+    color: var(--white-text);
+    float: left;
+    cursor: pointer;
+    display: none;
+    margin-left: 1rem;
+    border: solid 1.5px var(--white-text);
+    padding: .2rem;
+    border-radius: .1rem;
+  }
+  
+  #ckbox {
+    display: none;
+  }
+  
+  #elLogo img {
+    border: solid;
+    border-color: rgb(94, 4, 39);
+  }
+  
+  .primerFormulario {
+    text-align: center;
+    color: rgb(224, 215, 214);
+    font-size: 10mm;
+    padding: 3px;
+    background-color:rgb(136, 6, 125);
+    text-decoration: none;
+    margin-bottom:1cm;
+    margin-top: 1cm;
+  }
+  #divNotas {
+    text-align: center;
+    color: gold;
+    font-size: 10mm;
+    padding: 3px;
+    background-color:rgb(136, 6, 125);
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 2cm;
+  }
+
+  /*titulos*/
+  
+  h1 {
+    color: rgb(250, 136, 125);
+    text-align: center;
+    margin:10mm;
+    font-size: 6cm; 
+    font-family: 'Lobster', cursive;
+  }
+  
+  #nombrepagina {
+    color:rgb(250, 136, 125); 
+    font-size: 1.5cm;
+    font-family: 'Merriweather', serif;;
+  }
+  #subtitulo{
+    color:rgb(105, 10, 49); 
+    font-size: 1cm;
+  }
+  h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Merriweather', serif;;
+    color: rgb(250, 136, 125);
+    font-size: 3cm;
+    
+  }
+  
+  h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #160114;
+    padding: 10px;
+    font-size: 1cm;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    animation-duration: 20s;
+    animation-name: aparecer;
+  }
+
+
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  h4 {
+    text-align: center;
+    color: #0608a0;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  h5 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #11140b;
+    padding: 10px;
+    font-size: 10mm;
+  }
+  
+  p {
+    color: rgb(11, 11, 12);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5mm;
+  }
+  
+
+  /*boton dark*/
+  #oScuro {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 35mm;
+    height: 9mm;
+    color:rgb(219, 209, 217);
+    background-color: rgb(15, 12, 14);
+    border-radius: 5mm;
+    font-size: 3mm;
+  }
+
+  #oScuro:hover {
+    color:rgb(175, 204, 10);
+    background-color: rgb(16, 17, 15);
+   
+  }
+  /*boton inicio*/
+  #btnTutexto {
+    margin:0 auto;
+    color: rgb(14, 13, 13);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5mm;
+    border-radius: 5cm;
+    border-color: #dd2bb6;
+  }
+ #print {
+    text-align: center;
+    color: aqua;
+    font-size: 5cm;
+  }
+
+/*pie de pagina*/
+footer {
+  margin: 0;
+  text-align: center;
+  background-color: rgb(250, 136, 125);
+  height: 20vh;
+  padding: 3mm;
+  border:solid;
+}
+
+article, footer {
+  flex: 1;
+  margin: 0;
+}
+
+ 
+  /*FOTOS INDEX*/
+  .fOtitos {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: white;
+    padding: 4mm;  
+  }
+  .fOtitos div {
+    padding: 1mm 1mm 1mm 1 mm;
+    color: #9192a7;
+    text-align: center;
+    border: solid;
+    border-color: rgb(250, 136, 125);
+    margin: 0 auto;
+    padding: 3mm;
+  }
+  /*GRID CONTACTO*/
+  .cOntacto {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 2mm;
+    padding: 3mm;
+    background-color:rgb(22, 21, 21);  
+  }
+  .cOntacto div {
+    padding: 1mm 1mm 1mm 1 mm;
+    color: #0b1574;
+    text-align: center;
+    border: solid;
+    border-color: rgb(1, 24, 27);
+    margin: 1;
+  }
+  
+  /*carteles pagina seccion*/
+  .cArteles {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 2mm;
+    padding: 3mm;
+  }
+  .cArteles div {
+    background-color: rgb(241, 209, 224);
+    padding: 1mm 1mm 1mm 1 mm;
+    color: #08132b;
+    text-align: center;
+    border: solid;
+    border-color: rgb(117, 29, 41);
+    margin: 1;
+  }
+#listaServicios {
+  text-transform: uppercase;
+  border: solid;
+  border-color: #ee8a38;
+  border-radius: 50;
+  width: 25cm;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: 'Merriweather', serif;
+  color:rgb(223, 223, 236);
+  background-color: rgb(241, 85, 85);
+}
+
+#listaServicios p {
+  font-family: 'Merriweather', serif;
+  color:rgb(223, 223, 236);
+  
+}
+
+/*mapa*/
+iframe {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  text-align: center;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width:768px) {
+  #menu a {
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(17, 3, 3); 
+}
+
+#menu ul li a {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: auto;
+    padding: 0.1mm;
+    margin: 1mm;
+    text-transform: uppercase;
+    border: solid;
+    border-color:rgb(228, 228, 225);
+    background-color: rgb(250, 136, 125);
+}
+
+#menu ul li a:hover {
+    color: rgb(15, 15, 1);
+  }
+
+  #oScuro {
+    color:rgb(232, 235, 225);
+    background-color: rgb(15, 12, 14);
+    border-radius: 5mm;
+    font-size: 2mm;
+    margin: 0 auto;
+  }
+
+
+  #elLogo  {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  
+  }
+  
+    #ckbox:checked  ~ .menu-box{
+        left:0;
+    }
+  
+    .fOtitos{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      column-gap: 30mm;
+    }
+  .fOtitos div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      column-gap: 30mm;
+    }
+  .fOtitos img{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      column-gap: 30mm;
+    }
+    .cArteles{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      column-gap: 30mm;
+    }
+  .cArteles div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      column-gap: 30mm;
+    }
+    .cOntacto {
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      column-gap: 30mm;
+    }
+  }
+
