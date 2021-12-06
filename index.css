@@ -163,7 +163,7 @@ body {
     display: flex;
     flex-direction: row;
     text-align: center;
-    width: 35mm;
+    width: 26mm;
     height: 9mm;
     color:rgb(219, 209, 217);
     background-color: rgb(15, 12, 14);
@@ -289,7 +289,7 @@ iframe {
 
 /* MEDIA QUERIES */
 
-@media (max-width:768px) {
+@media (max-width:1200px) {
   #menu a {
     font-size: 10px;
     font-weight: bold;
@@ -393,4 +393,110 @@ iframe {
     }
     
   }
+
+  @media (max-width:900px) {
+    #menu a {
+      font-size: 10px;
+      font-weight: bold;
+      color: rgb(17, 3, 3); 
+  }
+  
+  #menu ul li a {
+      text-align: center;
+      color: whitesmoke;
+      font-size: 15px;
+      font-weight: auto;
+      padding: 0.1mm;
+      margin: 1mm;
+      text-transform: uppercase;
+      border: solid;
+      border-color:rgb(228, 228, 225);
+      background-color: rgb(250, 136, 125);
+  }
+  
+  #menu ul li a:hover {
+      color: rgb(15, 15, 1);
+    }
+  
+    #oScuro {
+      color:rgb(232, 235, 225);
+      background-color: rgb(15, 12, 14);
+      border-radius: 5mm;
+      font-size: 2mm;
+      margin: 0 auto;
+    }
+  
+  
+    #elLogo  {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+    
+    }
+    
+      #ckbox:checked  ~ .menu-box{
+          left:0;
+      }
+    
+      .fOtitos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 30mm;
+      }
+    .fOtitos div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 30mm;
+      }
+    .fOtitos img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 30mm;
+      }
+      .cArteles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 30mm;
+      }
+    .cArteles div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 30mm;
+      }
+      .cOntacto {
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 30mm;
+      }
+      #listaServicios {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-transform: uppercase;
+        border: solid;
+        border-color: #ee8a38;
+        border-radius: 50;
+        width: 11cm;
+        align-items: center;
+        margin: 0 auto;
+        padding: 10px;
+        font-family: 'Merriweather', serif;
+        color:rgb(223, 223, 236);
+        background-color: rgb(212, 27, 27);
+      }
+      
+      #listaServicios p {
+        font-family: 'Merriweather', serif;
+        color:rgb(16, 17, 15);
+        size: 5mm;
+      }
+      
+    }
+  
 
