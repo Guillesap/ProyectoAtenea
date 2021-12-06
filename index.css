@@ -174,7 +174,6 @@ body {
   #oScuro:hover {
     color:rgb(175, 204, 10);
     background-color: rgb(16, 17, 15);
-   
   }
   /*boton inicio*/
   #btnTutexto {
@@ -257,6 +256,8 @@ article, footer {
     margin: 1;
   }
 #listaServicios {
+  display: flex;
+  flex-direction: row;
   text-transform: uppercase;
   border: solid;
   border-color: #ee8a38;
@@ -275,7 +276,6 @@ article, footer {
 #listaServicios p {
   font-family: 'Merriweather', serif;
   color:rgb(223, 223, 236);
-  
 }
 
 /*mapa*/
@@ -369,5 +369,28 @@ iframe {
       align-items: center;
       column-gap: 30mm;
     }
+    #listaServicios {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      text-transform: uppercase;
+      border: solid;
+      border-color: #ee8a38;
+      border-radius: 50;
+      width: 11cm;
+      align-items: center;
+      margin: 0 auto;
+      padding: 10px;
+      font-family: 'Merriweather', serif;
+      color:rgb(223, 223, 236);
+      background-color: rgb(212, 27, 27);
+    }
+    
+    #listaServicios p {
+      font-family: 'Merriweather', serif;
+      color:rgb(16, 17, 15);
+      size: 5mm;
+    }
+    
   }
 
