@@ -110,7 +110,7 @@ body {
     margin-right: auto;
     text-align: center;
     font-family: 'Merriweather', serif;;
-    color: rgb(250, 136, 125);
+    color: rgb(233, 37, 168);
     font-size: 3cm;
     
   }
@@ -122,11 +122,10 @@ body {
     color: #160114;
     padding: 10px;
     font-size: 1cm;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     animation-duration: 20s;
     animation-name: aparecer;
   }
-
 
   @keyframes aparecer {
     0% {
@@ -157,7 +156,25 @@ body {
     font-size: 5mm;
   }
   
+#rEserva {
+  font-size: 10px;
+  font-weight: auto;
+  padding: 1mm;
+  margin: 5mm;
+  color: #dd2bb6;
+}
 
+#elWhaatsapp {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  background-color: rgb(21, 201, 21);
+}
+#elWhaatsapp p {
+  color: antiquewhite;
+  text-decoration: none;
+  margin: 0 auto;
+}
   /*boton dark*/
   #oScuro {
     display: flex;
@@ -205,7 +222,65 @@ article, footer {
   margin: 0;
 }
 
- 
+#hOla {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+
+}
+#hOla img {
+  display: flex;
+  flex-direction: row;
+  border:solid;
+  border-color: rgb(250, 136, 125);
+  margin: 10px;
+  
+}
+aside {
+  margin-top: 2cm;
+}
+#CentroMoron {
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  border-color: rgb(250, 136, 125);
+  border-radius: 50;
+  width: 25cm;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: 'Merriweather', serif;
+  color:rgb(223, 223, 236);
+  background-color: rgb(70, 67, 67);
+}
+#CentroMoron h3 {
+  color:rgb(223, 223, 236);
+  
+}
+
+#hOla img{
+  width: 800px;
+  height: 400px;
+  margin: 2cm;
+}
+#mAquina {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+
+}
+#mAquina img{
+  width: 400px;
+  height: 400px;
+  margin: 2 cm;
+  display: flex;
+  flex-direction: row;
+  border:solid;
+  border-color: rgb(250, 136, 125);
+  margin: 10px;
+}
   /*FOTOS INDEX*/
   .fOtitos {
     display: grid;
