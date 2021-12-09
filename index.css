@@ -401,7 +401,11 @@ aside {
   background-color: rgb(85, 82, 82);
 }
 
-
+#fotoCentralsomos {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
 /*mapa*/
 iframe {
   display: flex;
