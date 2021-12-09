@@ -16,7 +16,6 @@ body {
 /*nav bar*/
 #menu {
   background-color: rgb(250, 136, 125);
-  border:solid;
 }
 
 #menu a {
@@ -34,16 +33,26 @@ body {
   padding: 1mm;
   margin: 15mm;
   text-transform: uppercase;
-  border: solid;
-  background-color: rgb(250, 136, 125);
-  background-color: rgb(250, 136, 125);
 }
 
 #menu ul li a:hover {
   color: rgb(19, 19, 17);
 }
 
-  
+#DropMenu ul {
+  background-color: grey;
+ 
+}
+#DropMenu ul li{
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  margin: 0;
+  width: 250px;
+  height: 150px;
+  padding: 1mm;
+}
+
   .drawer {
     font-size: 1rem;
     color: var(--white-text);
@@ -175,6 +184,28 @@ body {
   text-decoration: none;
   margin: 0 auto;
 }
+
+/*sobre nostoros*/
+#cardHola{
+  display: inline-block;
+  margin: 1cm;
+
+}
+#cardHola img{
+  border: solid;
+  border-color: rgb(250, 136, 125);
+}
+
+h1 {
+  color: rgb(184, 8, 8);
+  text-align: center;
+  font-size: 2cm;
+}
+h2 {
+  color: rgb(170, 48, 17);
+  text-align: center;
+}
+
   /*boton dark*/
   #oScuro {
     display: flex;
@@ -206,6 +237,7 @@ body {
     color: aqua;
     font-size: 5cm;
   }
+
 
 /*pie de pagina*/
 footer {
@@ -352,6 +384,23 @@ aside {
   font-family: 'Merriweather', serif;
   color:rgb(223, 223, 236);
 }
+
+#CentroMoron {
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  border-color: #ee5bbd;
+  border-radius: 50;
+  width: 25cm;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: 'Merriweather', serif;
+  color:rgb(223, 223, 236);
+  background-color: rgb(85, 82, 82);
+}
+
 
 /*mapa*/
 iframe {
@@ -571,7 +620,22 @@ iframe {
         color:rgb(16, 17, 15);
         size: 5mm;
       }
+
+      #CentroMoron {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-transform: uppercase;
+        border: solid;
+        border-color: #ee8a38;
+        border-radius: 50;
+        width: 11cm;
+        align-items: center;
+        margin: 0 auto;
+        padding: 10px;
+        font-family: 'Merriweather', serif;
+        color:rgb(223, 223, 236);
+        background-color: rgb(97, 93, 93);
       
     }
-  
-
+  }
