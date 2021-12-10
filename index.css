@@ -409,8 +409,22 @@ aside {
   margin: 0 auto;
 }
 
-
+/*contacto*/
 /*mapa*/
+
+.carde {
+  display: flex;
+  flex-direction: row;
+  display: block;
+  margin: 0 auto;
+  padding:1cm;
+  border: solid;
+  border-color: rgb(14, 13, 13);
+  background-color: rgb(250, 136, 125); 
+  color:powderblue;
+  width: 200 px;
+}
+
 iframe {
   display: flex;
   margin: 0 auto;
@@ -419,7 +433,27 @@ iframe {
   width: 1400px; 
   height:400px;
 }
+#losPagos {
+  margin: 0 auto;
+}
 
+#elContacto img {
+  width: 200px;
+  margin: 0 auto;
+}
+
+#elwhats {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+#elwhats img {
+  width: 150px;
+  height: 100px;
+  background-color: pink;
+}
+
+/*............................................................*/
 
 /* MEDIA QUERIES */
 
@@ -562,7 +596,7 @@ iframe {
     }
     
   }
-
+/*................................................................*/
   @media (max-width:900px) {
     #menu a {
       font-size: 10px;
