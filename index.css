@@ -458,9 +458,15 @@ iframe {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-  
   }
   
+  #elLogo img  {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+  }
     #ckbox:checked  ~ .menu-box{
         left:0;
     }
@@ -509,7 +515,7 @@ iframe {
       border: solid;
       border-color: #ee8a38;
       border-radius: 50;
-      width: 11cm;
+      width: 9cm;
       align-items: center;
       margin: 0 auto;
       padding: 10px;
@@ -523,14 +529,28 @@ iframe {
       color:rgb(16, 17, 15);
       size: 5mm;
     }
+    #CentroMoron {
+      display: flex;
+      flex-direction: column;
+      border: solid;
+      border-color: #ee5bbd;
+      border-radius: 50;
+      width: 20cm;
+      flex-direction: row;
+      align-items: center;
+      margin: 0 auto;
+      padding: 10px;
+      font-family: 'Merriweather', serif;
+      color:rgb(223, 223, 236);
+      background-color: rgb(85, 82, 82);
+    }
     iframe {
       display: flex;
       margin: 0 auto;
       flex-direction: column;
       text-align: center;
-      width: 400px; 
+      width: 300px; 
       height: 200px;
-
     }
     
   }
@@ -575,6 +595,14 @@ iframe {
     
     }
     
+    #elLogo img  {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 200px;
+      height: 200px;
+    }
+
       #ckbox:checked  ~ .menu-box{
           left:0;
       }
@@ -646,7 +674,7 @@ iframe {
         border: solid;
         border-color: #ee8a38;
         border-radius: 50;
-        width: 11cm;
+        width: 9cm;
         align-items: center;
         margin: 0 auto;
         padding: 10px;
@@ -659,7 +687,7 @@ iframe {
       margin: 0 auto;
       flex-direction: column;
       text-align: center;
-      width: 400px; 
+      width: 300px; 
       height: 200px
     }
   }
