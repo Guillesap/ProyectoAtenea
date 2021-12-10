@@ -408,6 +408,11 @@ aside {
   flex-direction: row;
   margin: 0 auto;
 }
+
+#cardHola img {
+  width: 200px;
+}
+
 /*mapa*/
 iframe {
   display: flex;
@@ -544,6 +549,12 @@ iframe {
       color:rgb(223, 223, 236);
       background-color: rgb(85, 82, 82);
     }
+    #cardHola img {
+      width: 250px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
     iframe {
       display: flex;
       margin: 0 auto;
@@ -651,7 +662,7 @@ iframe {
         border: solid;
         border-color: #ee8a38;
         border-radius: 50;
-        width: 11cm;
+        width: 9cm;
         align-items: center;
         margin: 0 auto;
         padding: 10px;
@@ -665,7 +676,12 @@ iframe {
         color:rgb(16, 17, 15);
         size: 5mm;
       }
-
+      #cardHola img {
+        width: 250px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+      }
       #CentroMoron {
         display: flex;
         flex-direction: column;
