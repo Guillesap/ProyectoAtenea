@@ -595,6 +595,9 @@ iframe {
       height: 200px;
     }
     
+    #losPagos {
+      width: 300px;
+    }
   }
 /*................................................................*/
   @media (max-width:900px) {
@@ -728,6 +731,9 @@ iframe {
         font-family: 'Merriweather', serif;
         color:rgb(223, 223, 236);
         background-color: rgb(97, 93, 93);
+    }
+    #losPagos {
+      width: 300px;
     }
     iframe {
       display: flex;
