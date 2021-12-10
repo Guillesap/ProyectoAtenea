@@ -791,3 +791,160 @@ iframe {
       font-size: 20px;
     }
   }
+  /*---------------------------------*/
+  @media (max-width:700px) {
+    #menu a {
+      font-size: 10px;
+      font-weight: bold;
+      color: rgb(17, 3, 3); 
+  }
+  
+  #menu ul li a {
+      text-align: center;
+      color: whitesmoke;
+      font-size: 15px;
+      font-weight: auto;
+      padding: 0.1mm;
+      margin: 1mm;
+      text-transform: uppercase;
+      border: solid;
+      border-color:rgb(228, 228, 225);
+      background-color: rgb(250, 136, 125);
+  }
+  
+  #menu ul li a:hover {
+      color: rgb(15, 15, 1);
+    }
+  
+    #oScuro {
+      color:rgb(232, 235, 225);
+      background-color: rgb(15, 12, 14);
+      border-radius: 5mm;
+      font-size: 2mm;
+      margin: 0 auto;
+    }
+  
+  
+    #elLogo  {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+    
+    }
+    
+    #elLogo img  {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 200px;
+      height: 200px;
+    }
+
+      #ckbox:checked  ~ .menu-box{
+          left:0;
+      }
+    
+      .fOtitos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 30mm;
+      }
+    .fOtitos div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 30mm;
+      }
+    .fOtitos img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 30mm;
+      }
+      .cArteles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 30mm;
+      }
+    .cArteles div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 30mm;
+      }
+      .cOntacto {
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 30mm;
+      }
+      #listaServicios {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-transform: uppercase;
+        border: solid;
+        border-color: #ee8a38;
+        border-radius: 50;
+        width: 9cm;
+        align-items: center;
+        margin: 0 auto;
+        padding: 10px;
+        font-family: 'Merriweather', serif;
+        color:rgb(223, 223, 236);
+        background-color: rgb(212, 27, 27);
+      }
+      
+      #listaServicios p {
+        font-family: 'Merriweather', serif;
+        color:rgb(16, 17, 15);
+        size: 5mm;
+      }
+      #cardHola img {
+        width: 250px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+      }
+      #CentroMoron {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-transform: uppercase;
+        border: solid;
+        border-color: #ee8a38;
+        border-radius: 50;
+        width: 9cm;
+        align-items: center;
+        margin: 0 auto;
+        padding: 10px;
+        font-family: 'Merriweather', serif;
+        color:rgb(223, 223, 236);
+        background-color: rgb(97, 93, 93);
+    }
+    iframe {
+      display: flex;
+      margin: 0 auto;
+      flex-direction: column;
+      text-align: center;
+      width: 300px; 
+      height: 200px
+    }
+    #iConos i{
+      display: inline-block;
+      margin: 0 auto;
+      padding: 10px;
+      color:rgb(233, 233, 236);
+      font-size: 10px;
+    }
+    #elFooter p {
+      display: flex;
+      flex-direction: column;
+      color:aliceblue;
+      height: 5px;
+      font-size: 10px;
+    }
+  }
+
