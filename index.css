@@ -777,17 +777,17 @@ iframe {
       height: 200px
     }
     #iConos i{
-      display: flex;
-      flex-direction: column;
+      display: inline-block;
       margin: 0 auto;
       padding: 10px;
       color:rgb(233, 233, 236);
-      font-size: 30px;
+      font-size: 10px;
     }
     #elFooter p {
       display: flex;
       flex-direction: column;
       color:aliceblue;
       height: 10px;
+      font-size: 10px;
     }
   }
