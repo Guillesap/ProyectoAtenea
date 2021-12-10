@@ -8,9 +8,10 @@ const darkMode = () => {
   $("#muchoEstilo").css("background-color", "black")
   $(".cArteles div").css("background-color", "black")
   $(".fOtitos").css("background-color", "black")
-  $("#menu").css("background-color", "grey")
-  $("#menu ul li ").css("background-color", "grey")
-  $("footer").css("background-color", "grey")
+  $("#menu").css("background-color", "black")
+  $("#menu ul li ").css("background-color", "black")
+  $("#menu ul li a").css("color", "white")
+  $("footer").css("background-color", "black")
 
   localStorage.setItem("oScuro", "dark")
 }
@@ -18,7 +19,7 @@ const darkMode = () => {
 const ligthMode = () => {
   $("body").css("background", "-webkit-linear-gradient(45deg, rgb(244, 245, 245) 0%,rgb(243, 245, 243) 51%,rgb(245, 241, 244) 100%)")
   $("h1").css("color", "black")
-  $("p").css("color", "white")
+  $("p").css("color", "black")
   $("h2").css("color", "black")
   $("h3").css("color", "black")
   $("#muchoEstilo").css("background-color", "white")
@@ -27,8 +28,8 @@ const ligthMode = () => {
   $("#subtitulo").css("color", "black")
   $(".fOtitos").css("background-color", "white")
   $("#menu").css("background-color", "white")
-  $("#menu").css("border-color", "black") 
   $("#menu ul li ").css("background-color", "white")
+  $("#menu ul li a").css("color", "black")
   $("footer").css("background-color", "white")
   $("#elFooter").css("color", "grey")
   $("#elFooter").css("border-color", "grey")

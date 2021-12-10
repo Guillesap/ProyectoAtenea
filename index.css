@@ -28,6 +28,7 @@ body {
 #menu ul li a {
   text-align: center;
   color: whitesmoke;
+  border: solid;
   font-size: 17px;
   font-weight: auto;
   padding: 1mm;
@@ -160,11 +161,12 @@ body {
   }
   
   p {
-    color: rgb(11, 11, 12);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(14, 14, 15);
+    font-family: 'Merriweather', serif;;
     font-size: 5mm;
   }
-  
+
+
 #rEserva {
   font-size: 10px;
   font-weight: auto;
