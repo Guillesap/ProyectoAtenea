@@ -12,7 +12,7 @@ const darkMode = () => {
   $("#menu ul li ").css("background-color", "black")
   $("#menu ul li a").css("color", "white")
   $("footer").css("background-color", "black")
-
+  $("#iConos i").css("color", "white")
   localStorage.setItem("oScuro", "dark")
 }
 
