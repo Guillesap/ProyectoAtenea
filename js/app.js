@@ -33,6 +33,7 @@ const ligthMode = () => {
   $("footer").css("background-color", "white")
   $("#elFooter").css("color", "grey")
   $("#elFooter").css("border-color", "grey")
+  $("#iConos i").css("color", "black")
   localStorage.setItem("oScuro", "ligth")
 }
 
