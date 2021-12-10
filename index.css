@@ -595,8 +595,17 @@ iframe {
       height: 200px;
     }
     
-    #losPagos {
-      width: 300px;
+    .carde {
+      display: flex;
+      flex-direction: column;
+      display: block;
+      margin: 0 auto;
+      padding:1cm;
+      border: solid;
+      border-color: rgb(14, 13, 13);
+      background-color: rgb(250, 136, 125); 
+      color:powderblue;
+      width: 150 px;
     }
   }
 /*................................................................*/
@@ -732,9 +741,8 @@ iframe {
         color:rgb(223, 223, 236);
         background-color: rgb(97, 93, 93);
     }
-    #losPagos {
-      width: 300px;
-    }
+
+  
     iframe {
       display: flex;
       margin: 0 auto;
