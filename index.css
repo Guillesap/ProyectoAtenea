@@ -521,6 +521,14 @@ iframe {
       color:rgb(16, 17, 15);
       size: 5mm;
     }
+    iframe {
+      display: flex;
+      margin: 0 auto;
+      flex-direction: column;
+      text-align: center;
+      width: 600;
+
+    }
     
   }
 
@@ -642,6 +650,13 @@ iframe {
         font-family: 'Merriweather', serif;
         color:rgb(223, 223, 236);
         background-color: rgb(97, 93, 93);
-      
+    }
+    iframe {
+      display: flex;
+      margin: 0 auto;
+      flex-direction: column;
+      text-align: center;
+      width: 600;
+
     }
   }
