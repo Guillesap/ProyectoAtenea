@@ -414,6 +414,8 @@ iframe {
   margin: 0 auto;
   flex-direction: row;
   text-align: center;
+  width: 1400px; 
+  height:400px;
 }
 
 
@@ -526,7 +528,8 @@ iframe {
       margin: 0 auto;
       flex-direction: column;
       text-align: center;
-      width: 600;
+      width: 400px; 
+      height: 200px;
 
     }
     
@@ -656,7 +659,7 @@ iframe {
       margin: 0 auto;
       flex-direction: column;
       text-align: center;
-      width: 600;
-
+      width: 400px; 
+      height: 200px
     }
   }
