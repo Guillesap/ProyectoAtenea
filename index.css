@@ -391,7 +391,7 @@ aside {
   display: flex;
   flex-direction: row;
   border: solid;
-  border-color: #ee5bbd;
+  border-color: rgb(241, 85, 85);
   border-radius: 50;
   width: 25cm;
   flex-direction: row;
@@ -399,14 +399,44 @@ aside {
   margin: 0 auto;
   padding: 10px;
   font-family: 'Merriweather', serif;
-  color:rgb(223, 223, 236);
-  background-color: rgb(85, 82, 82);
+  color:rgb(9, 9, 12);
+  background-color: rgb(78, 76, 76);
 }
 
 #fotoCentralsomos {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
+}
+
+/*nav tratamientos*/
+
+#tRatamientos {
+  margin: 0 auto;
+}
+#tRatamientos li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 60px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+}
+#losTratamientos {
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  border-color: rgb(241, 85, 85);
+  border-radius: 50;
+  width: 25cm;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: 'Merriweather', serif;
+  color:rgb(9, 9, 12);
+  background-color: rgb(240, 232, 232);
 }
 
 /*contacto*/
@@ -594,6 +624,32 @@ iframe {
       color:rgb(223, 223, 236);
       background-color: rgb(85, 82, 82);
     }
+    #tRatamientos {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      text-align: center;
+      padding: 10mm;
+    }
+    #tRatamientos li {
+      margin: 1mm;
+      padding: 5mm;
+    }
+    #losTratamientos {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      border: solid;
+      border-color: #ee5bbd;
+      border-radius: 50;
+      width: 10cm;
+      flex-direction: row;
+      align-items: center;
+      margin: 0 auto;
+      font-family: 'Merriweather', serif;
+      color:rgb(223, 223, 236);
+      background-color: rgb(85, 82, 82);
+    }
     #cardHola img {
       width: 300px;
       margin: 0 auto;
@@ -673,7 +729,6 @@ iframe {
       display: flex;
       flex-direction: column;
       margin: 0 auto;
-    
     }
     
     #elLogo img  {
@@ -740,7 +795,21 @@ iframe {
         color:rgb(223, 223, 236);
         background-color: rgb(212, 27, 27);
       }
-      
+      #losTratamientos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border: solid;
+        border-color: #ee5bbd;
+        border-radius: 50;
+        width: 10cm;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 auto;
+        font-family: 'Merriweather', serif;
+        color:rgb(223, 223, 236);
+        background-color: rgb(85, 82, 82);
+      }
       #listaServicios p {
         font-family: 'Merriweather', serif;
         color:rgb(16, 17, 15);
@@ -751,6 +820,17 @@ iframe {
         margin: 0 auto;
         display: flex;
         flex-direction: column;
+      }
+      #tRatamientos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 10mm;
+      }
+      #tRatamientos li {
+        margin: 1mm;
+        padding: 5mm;
       }
       #CentroMoron {
         display: flex;
@@ -923,6 +1003,32 @@ iframe {
         font-family: 'Merriweather', serif;
         color:rgb(223, 223, 236);
         background-color: rgb(97, 93, 93);
+    }
+    #losTratamientos {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      border: solid;
+      border-color: #ee5bbd;
+      border-radius: 50;
+      width: 10cm;
+      flex-direction: row;
+      align-items: center;
+      margin: 0 auto;
+      font-family: 'Merriweather', serif;
+      color:rgb(223, 223, 236);
+      background-color: rgb(85, 82, 82);
+    }
+    #tRatamientos {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      text-align: center;
+      padding: 10mm;
+    }
+    #tRatamientos li {
+      margin: 1mm;
+      padding: 5mm;
     }
     iframe {
       display: flex;
