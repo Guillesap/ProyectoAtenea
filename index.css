@@ -409,9 +409,6 @@ aside {
   margin: 0 auto;
 }
 
-#cardHola img {
-  width: 200px;
-}
 
 /*mapa*/
 iframe {
@@ -550,7 +547,7 @@ iframe {
       background-color: rgb(85, 82, 82);
     }
     #cardHola img {
-      width: 250px;
+      width: 300px;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
