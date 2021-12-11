@@ -187,7 +187,7 @@ body {
   margin: 0 auto;
 }
 
-/*sobre nostoros*/
+/*sobre nosotros*/
 #cardHola{
   display: inline-block;
   margin: 1cm;
@@ -320,55 +320,9 @@ aside {
   border-color: rgb(250, 136, 125);
   margin: 10px;
 }
-  /*FOTOS INDEX*/
-  .fOtitos {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    background-color: white;
-    padding: 4mm;  
-  }
-  .fOtitos div {
-    padding: 1mm 1mm 1mm 1 mm;
-    color: #9192a7;
-    text-align: center;
-    border: solid;
-    border-color: rgb(250, 136, 125);
-    margin: 0 auto;
-    padding: 3mm;
-  }
-  /*GRID CONTACTO*/
-  .cOntacto {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    gap: 2mm;
-    padding: 3mm;
-    background-color:rgb(22, 21, 21);  
-  }
-  .cOntacto div {
-    padding: 1mm 1mm 1mm 1 mm;
-    color: #0b1574;
-    text-align: center;
-    border: solid;
-    border-color: rgb(1, 24, 27);
-    margin: 1;
-  }
   
-  /*carteles pagina seccion*/
-  .cArteles {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    gap: 2mm;
-    padding: 3mm;
-  }
-  .cArteles div {
-    background-color: rgb(241, 209, 224);
-    padding: 1mm 1mm 1mm 1 mm;
-    color: #08132b;
-    text-align: center;
-    border: solid;
-    border-color: rgb(117, 29, 41);
-    margin: 1;
-  }
+
+
 #listaServicios {
   display: flex;
   flex-direction: row;
@@ -418,6 +372,10 @@ aside {
 
 #tRatamientos {
   margin: 0 auto;
+}
+
+#tRatamientos li {
+  color:rgb(250, 136, 125);
 }
 #tRatamientos li {
   display: inline-block;
@@ -639,7 +597,9 @@ iframe {
     #tRatamientos li {
       margin: 1mm;
       padding: 5mm;
+      color:rgb(250, 136, 125);
     }
+
     #losTratamientos {
       display: flex;
       flex-direction: column;
@@ -836,6 +796,7 @@ iframe {
       #tRatamientos li {
         margin: 1mm;
         padding: 5mm;
+        color:rgb(250, 136, 125);
       }
       #CentroMoron {
         display: flex;
@@ -1034,6 +995,7 @@ iframe {
     #tRatamientos li {
       margin: 1mm;
       padding: 5mm;
+      color:rgb(250, 136, 125);
     }
     iframe {
       display: flex;
