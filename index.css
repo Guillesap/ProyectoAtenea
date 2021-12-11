@@ -288,6 +288,21 @@ aside {
   font-family: 'Merriweather', serif;
   background-color: rgb(226, 220, 220);
 }
+#lasReservas {
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  border-color: rgb(250, 136, 125);
+  border-radius: 50;
+  width: 25cm;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: 'Merriweather', serif;
+  background-color: rgb(226, 220, 220);
+}
 #pReparacion {
   margin: 0 auto;
   font-size: 20px;
@@ -321,7 +336,6 @@ aside {
 }
   
 
-
 #listaServicios {
   display: flex;
   flex-direction: row;
@@ -345,21 +359,6 @@ aside {
   color:rgb(223, 223, 236);
 }
 
-#CentroMoron {
-  display: flex;
-  flex-direction: row;
-  border: solid;
-  border-color: rgb(241, 85, 85);
-  border-radius: 50;
-  width: 25cm;
-  flex-direction: row;
-  align-items: center;
-  margin: 0 auto;
-  padding: 10px;
-  font-family: 'Merriweather', serif;
-  color:rgb(9, 9, 12);
-  background-color: rgb(78, 76, 76);
-}
 
 #fotoCentralsomos {
   display: flex;
@@ -379,10 +378,10 @@ aside {
 #tRatamientos li {
   display: inline-block;
   text-decoration: none;
-  padding: 60px;
+  padding: 40px;
   margin: 0 auto;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Merriweather', serif;
 }
 #losTratamientos {
@@ -586,6 +585,8 @@ iframe {
       color:rgb(15, 15, 15);
       background-color: rgb(231, 225, 225);
     }
+
+
     #tRatamientos {
       display: flex;
       flex-direction: column;
