@@ -15,6 +15,7 @@ const darkMode = () => {
   $("#iConos i").css("color", "white")
   $("#losTratamientos").css("background-color", "black")
   $("#losTratamientos").css("background-color", "black")
+  $("#iMportante").css("color", "black")
   localStorage.setItem("oScuro", "dark")
 }
 

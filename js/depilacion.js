@@ -22,6 +22,7 @@ const darkMode = () => {
     $("p").css("color", "black")
     $("h2").css("color", "black")
     $("h3").css("color", "black")
+    $("h4").css("color", "black")
     $("#nombrepagina").css("color", "black")
     $("#subtitulo").css("color", "black")
     $("#menu").css("background-color", "white")

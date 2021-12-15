@@ -11,7 +11,6 @@ const darkMode = () => {
     $("footer").css("background-color", "black")
     $("#iConos i").css("color", "white")
     $("#losTratamientos").css("background-color", "black")
-    $("#losTratamientos").css("background-color", "black")
     localStorage.setItem("oScuro", "dark")
   }
   
@@ -31,7 +30,7 @@ const darkMode = () => {
     $("#elFooter").css("color", "grey")
     $("#elFooter").css("border-color", "grey")
     $("#iConos i").css("color", "black")
-    $("#losTratamientos").css("background-color", "white")
+    $("#losTratamientos").css("color", "black")
     localStorage.setItem("oScuro", "ligth")
   }
   
