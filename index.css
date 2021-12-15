@@ -15,7 +15,7 @@ body {
 
 /*nav bar*/
 #menu {
-  background-color: rgb(250, 136, 125);
+  background-color: rgb(250, 249, 249);
 }
 
 #menu a {
@@ -27,7 +27,7 @@ body {
 
 #menu ul li a {
   text-align: center;
-  color: whitesmoke;
+  color: rgb(226, 89, 89);
   border: solid;
   font-size: 17px;
   font-weight: auto;
@@ -245,7 +245,7 @@ h2 {
 footer {
   margin: 0;
   text-align: center;
-  background-color: rgb(250, 136, 125);
+  background-color: grey;
   height: 20vh;
   padding: 3mm;
   border:solid;
