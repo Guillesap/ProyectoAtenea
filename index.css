@@ -407,11 +407,12 @@ aside {
   display: flex;
   flex-direction: row;
   display: block;
+  text-align: center;
   margin: 0 auto;
   padding:1cm;
   border: solid;
   border-color: rgb(14, 13, 13);
-  background-color: rgb(250, 136, 125); 
+  background-color: rgb(230, 206, 203); 
   color:powderblue;
   width: 200 px;
 }
@@ -638,7 +639,7 @@ iframe {
       padding:1cm;
       border: solid;
       border-color: rgb(14, 13, 13);
-      background-color: rgb(250, 136, 125); 
+      background-color: rgb(230, 206, 203); 
       color:powderblue;
       width: 150 px;
     }
