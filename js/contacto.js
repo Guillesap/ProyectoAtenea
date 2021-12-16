@@ -5,6 +5,8 @@ const darkMode = () => {
   $("p").css("color", "white")
   $("h2").css("color", "white")
   $("h3").css("color", "white")
+  $("h6").css("color", "black")
+  $("#losPagos div  ").css("background-color", "grey")
   $("#muchoEstilo").css("background-color", "black")
   $(".cArteles div").css("background-color", "black")
   $(".fOtitos").css("background-color", "black")
@@ -12,10 +14,12 @@ const darkMode = () => {
   $("#menu ul li ").css("background-color", "black")
   $("#menu ul li a").css("color", "white")
   $("footer").css("background-color", "black")
+  $("#elFooter").css("background-color", "black")
   $("#iConos i").css("color", "white")
   $("#losTratamientos").css("background-color", "black")
   $("#losTratamientos").css("background-color", "black")
   $("#iMportante").css("color", "black")
+
   localStorage.setItem("oScuro", "dark")
 }
 
