@@ -103,7 +103,7 @@ body {
     text-align: center;
     margin:10mm;
     font-size: 6cm; 
-    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather', serif;;
   }
   
   #nombrepagina {
@@ -148,7 +148,7 @@ body {
   h4 {
     text-align: center;
     color: #070707;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Merriweather', serif;;
   }
   
   h5 {
