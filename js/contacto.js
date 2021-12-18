@@ -8,7 +8,7 @@ const darkMode = () => {
   $("h4").css("color", "white")
   $("h6").css("color", "black")
   $("#losPagos div  ").css("background-color", "grey")
-  $("#muchoEstilo").css("background-color", "black")
+  $("#CentroMoron").css("background-color", "grey")
   $(".cArteles div").css("background-color", "black")
   $(".fOtitos").css("background-color", "black")
   $("#menu").css("background-color", "black")
