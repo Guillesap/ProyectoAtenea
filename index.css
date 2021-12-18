@@ -455,6 +455,7 @@ iframe {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
+  background-color: rgb(245, 176, 187);
 }
 #elwhats img {
   width: 150px;
