@@ -455,12 +455,13 @@ iframe {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
-  background-color: rgb(245, 176, 187);
+  border: solid;
+  background-color: rgb(243, 10, 99);
 }
+
 #elwhats img {
   width: 150px;
   height: 100px;
-  background-color: pink;
 }
 
 #iConos i{
